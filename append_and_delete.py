@@ -1,11 +1,11 @@
-s1 = "zzzzz"
-s2 = "zzzzzzz"
-k =4
+s1 = "y"
+s2 = "yu"
+k =2
 
 def appendAndDelete(s, t, k):
     counter = 0
 
-    if len(s) == len(t) and k == 0:
+    if s == t and k == 0:
             return "Yes,here"
 
     else:
